@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ENN_Snake_Game</title>
+    
+    <script src="bridge.js"></script>
+    <script src="bridge.console.js"></script>
+    <script src="bridge.meta.js"></script>
+    <script src="newtonsoft.json.js"></script>
+    <script src="ENN%20Snake%20Game.js"></script>
+    <script src="ENN%20Snake%20Game.meta.js"></script>
+</head>
+<body>
+	<button id="BUTTON" >Initialize</button> Best Fitness:<span id = "fitness"></span>
+	<div id = "elements">
+		<canvas id="gc0" width= "400" height= "400"></canvas> <!-- canvas tag is used to create a box to draw object inside it-->
+		<canvas id="gc1" width= "400" height= "400"></canvas>
+		<canvas id="gc2" width= "400" height= "400"></canvas>
+		<canvas id="gc3" width= "400" height= "400"></canvas>
+		<canvas id="gc4" width= "400" height= "400"></canvas>
+		<canvas id="gc5" width= "400" height= "400"></canvas>
+		<canvas id="gc6" width= "400" height= "400"></canvas>
+		<canvas id="gc7" width= "400" height= "400"></canvas>
+		<canvas id="gc8" width= "400" height= "400"></canvas>
+		<canvas id="gc9" width= "400" height= "400"></canvas>
+		<canvas id="gc10" width= "400" height= "400"></canvas> 
+		<canvas id="gc11" width= "400" height= "400"></canvas>
+		<canvas id="gc12" width= "400" height= "400"></canvas>
+		<canvas id="gc13" width= "400" height= "400"></canvas>
+		<canvas id="gc14" width= "400" height= "400"></canvas>
+		<canvas id="gc15" width= "400" height= "400"></canvas>
+		<canvas id="gc16" width= "400" height= "400"></canvas>
+		<canvas id="gc17" width= "400" height= "400"></canvas>
+		<canvas id="gc18" width= "400" height= "400"></canvas>
+		<canvas id="gc19" width= "400" height= "400"></canvas>
+		<canvas id="gc20" width= "400" height= "400"></canvas>
+		<canvas id="gc21" width= "400" height= "400"></canvas>
+		<canvas id="gc22" width= "400" height= "400"></canvas>
+		<canvas id="gc23" width= "400" height= "400"></canvas>
+		<canvas id="gc24" width= "400" height= "400"></canvas>
+		<canvas id="gc25" width= "400" height= "400"></canvas>
+		<canvas id="gc26" width= "400" height= "400"></canvas>
+		<canvas id="gc27" width= "400" height= "400"></canvas>
+		<canvas id="gc28" width= "400" height= "400"></canvas>
+		<canvas id="gc29" width= "400" height= "400"></canvas>
+		<canvas id="gc30" width= "400" height= "400"></canvas>
+		<canvas id="gc31" width= "400" height= "400"></canvas>
+		<canvas id="gc32" width= "400" height= "400"></canvas>
+		<canvas id="gc33" width= "400" height= "400"></canvas>
+		<canvas id="gc34" width= "400" height= "400"></canvas>
+		<canvas id="gc35" width= "400" height= "400"></canvas>
+		<canvas id="gc36" width= "400" height= "400"></canvas>
+		<canvas id="gc37" width= "400" height= "400"></canvas>
+		<canvas id="gc38" width= "400" height= "400"></canvas>
+		<canvas id="gc39" width= "400" height= "400"></canvas>
+		<canvas id="gc40" width= "400" height= "400"></canvas>
+		<canvas id="gc41" width= "400" height= "400"></canvas>
+		<canvas id="gc42" width= "400" height= "400"></canvas>
+		<canvas id="gc43" width= "400" height= "400"></canvas>
+		<canvas id="gc44" width= "400" height= "400"></canvas>
+		<canvas id="gc45" width= "400" height= "400"></canvas>
+		<canvas id="gc46" width= "400" height= "400"></canvas>
+		<canvas id="gc47" width= "400" height= "400"></canvas>
+		<canvas id="gc48" width= "400" height= "400"></canvas>
+		<canvas id="gc49" width= "400" height= "400"></canvas>
+		<canvas id="gc50" width= "400" height= "400"></canvas>
+		<canvas id="gc51" width= "400" height= "400"></canvas>
+		<canvas id="gc52" width= "400" height= "400"></canvas>
+		<canvas id="gc53" width= "400" height= "400"></canvas>
+		<canvas id="gc54" width= "400" height= "400"></canvas>
+		<canvas id="gc55" width= "400" height= "400"></canvas>
+		<canvas id="gc56" width= "400" height= "400"></canvas>
+		<canvas id="gc57" width= "400" height= "400"></canvas>
+		<canvas id="gc58" width= "400" height= "400"></canvas>
+		<canvas id="gc59" width= "400" height= "400"></canvas>
+		<canvas id="gc60" width= "400" height= "400"></canvas>
+		<canvas id="gc61" width= "400" height= "400"></canvas>
+		<canvas id="gc62" width= "400" height= "400"></canvas>
+		<canvas id="gc63" width= "400" height= "400"></canvas>
+		<canvas id="gc64" width= "400" height= "400"></canvas>
+		<canvas id="gc65" width= "400" height= "400"></canvas>
+		<canvas id="gc66" width= "400" height= "400"></canvas>
+		<canvas id="gc67" width= "400" height= "400"></canvas>
+		<canvas id="gc68" width= "400" height= "400"></canvas>
+		<canvas id="gc69" width= "400" height= "400"></canvas>
+		<canvas id="gc70" width= "400" height= "400"></canvas>
+		<canvas id="gc71" width= "400" height= "400"></canvas>
+		<canvas id="gc72" width= "400" height= "400"></canvas>
+		<canvas id="gc73" width= "400" height= "400"></canvas>
+		<canvas id="gc74" width= "400" height= "400"></canvas>
+		<canvas id="gc75" width= "400" height= "400"></canvas>
+		<canvas id="gc76" width= "400" height= "400"></canvas>
+		<canvas id="gc77" width= "400" height= "400"></canvas>
+		<canvas id="gc78" width= "400" height= "400"></canvas>
+		<canvas id="gc79" width= "400" height= "400"></canvas>
+		<canvas id="gc80" width= "400" height= "400"></canvas>
+		<canvas id="gc81" width= "400" height= "400"></canvas>
+		<canvas id="gc82" width= "400" height= "400"></canvas>
+		<canvas id="gc83" width= "400" height= "400"></canvas>
+		<canvas id="gc84" width= "400" height= "400"></canvas>
+		<canvas id="gc85" width= "400" height= "400"></canvas>
+		<canvas id="gc86" width= "400" height= "400"></canvas>
+		<canvas id="gc87" width= "400" height= "400"></canvas>
+		<canvas id="gc88" width= "400" height= "400"></canvas>
+		<canvas id="gc89" width= "400" height= "400"></canvas>
+		<canvas id="gc90" width= "400" height= "400"></canvas>
+		<canvas id="gc91" width= "400" height= "400"></canvas>
+		<canvas id="gc92" width= "400" height= "400"></canvas>
+		<canvas id="gc93" width= "400" height= "400"></canvas>
+		<canvas id="gc94" width= "400" height= "400"></canvas>
+		<canvas id="gc95" width= "400" height= "400"></canvas>
+		<canvas id="gc96" width= "400" height= "400"></canvas>
+		<canvas id="gc97" width= "400" height= "400"></canvas>
+		<canvas id="gc98" width= "400" height= "400"></canvas>
+		<canvas id="gc99" width= "400" height= "400"></canvas>
+		<canvas id="gc100" width= "400" height= "400"></canvas> 
+		<canvas id="gc101" width= "400" height= "400"></canvas>
+		<canvas id="gc102" width= "400" height= "400"></canvas>
+		<canvas id="gc103" width= "400" height= "400"></canvas>
+		<canvas id="gc104" width= "400" height= "400"></canvas>
+		<canvas id="gc105" width= "400" height= "400"></canvas>
+		<canvas id="gc106" width= "400" height= "400"></canvas>
+		<canvas id="gc107" width= "400" height= "400"></canvas>
+		<canvas id="gc108" width= "400" height= "400"></canvas>
+		<canvas id="gc109" width= "400" height= "400"></canvas>
+		<canvas id="gc110" width= "400" height= "400"></canvas> 
+		<canvas id="gc111" width= "400" height= "400"></canvas>
+		<canvas id="gc112" width= "400" height= "400"></canvas>
+		<canvas id="gc113" width= "400" height= "400"></canvas>
+		<canvas id="gc114" width= "400" height= "400"></canvas>
+		<canvas id="gc115" width= "400" height= "400"></canvas>
+		<canvas id="gc116" width= "400" height= "400"></canvas>
+		<canvas id="gc117" width= "400" height= "400"></canvas>
+		<canvas id="gc118" width= "400" height= "400"></canvas>
+		<canvas id="gc119" width= "400" height= "400"></canvas>
+		<canvas id="gc120" width= "400" height= "400"></canvas>
+		<canvas id="gc121" width= "400" height= "400"></canvas>
+		<canvas id="gc122" width= "400" height= "400"></canvas>
+		<canvas id="gc123" width= "400" height= "400"></canvas>
+		<canvas id="gc124" width= "400" height= "400"></canvas>
+		<canvas id="gc125" width= "400" height= "400"></canvas>
+		<canvas id="gc126" width= "400" height= "400"></canvas>
+		<canvas id="gc127" width= "400" height= "400"></canvas>
+		<canvas id="gc128" width= "400" height= "400"></canvas>
+		<canvas id="gc129" width= "400" height= "400"></canvas>
+		<canvas id="gc130" width= "400" height= "400"></canvas>
+		<canvas id="gc131" width= "400" height= "400"></canvas>
+		<canvas id="gc132" width= "400" height= "400"></canvas>
+		<canvas id="gc133" width= "400" height= "400"></canvas>
+		<canvas id="gc134" width= "400" height= "400"></canvas>
+		<canvas id="gc135" width= "400" height= "400"></canvas>
+		<canvas id="gc136" width= "400" height= "400"></canvas>
+		<canvas id="gc137" width= "400" height= "400"></canvas>
+		<canvas id="gc138" width= "400" height= "400"></canvas>
+		<canvas id="gc139" width= "400" height= "400"></canvas>
+		<canvas id="gc140" width= "400" height= "400"></canvas>
+		<canvas id="gc141" width= "400" height= "400"></canvas>
+		<canvas id="gc142" width= "400" height= "400"></canvas>
+		<canvas id="gc143" width= "400" height= "400"></canvas>
+		<canvas id="gc144" width= "400" height= "400"></canvas>
+		<canvas id="gc145" width= "400" height= "400"></canvas>
+		<canvas id="gc146" width= "400" height= "400"></canvas>
+		<canvas id="gc147" width= "400" height= "400"></canvas>
+		<canvas id="gc148" width= "400" height= "400"></canvas>
+		<canvas id="gc149" width= "400" height= "400"></canvas>
+		<canvas id="gc150" width= "400" height= "400"></canvas>
+		<canvas id="gc151" width= "400" height= "400"></canvas>
+		<canvas id="gc152" width= "400" height= "400"></canvas>
+		<canvas id="gc153" width= "400" height= "400"></canvas>
+		<canvas id="gc154" width= "400" height= "400"></canvas>
+		<canvas id="gc155" width= "400" height= "400"></canvas>
+		<canvas id="gc156" width= "400" height= "400"></canvas>
+		<canvas id="gc157" width= "400" height= "400"></canvas>
+		<canvas id="gc158" width= "400" height= "400"></canvas>
+		<canvas id="gc159" width= "400" height= "400"></canvas>
+		<canvas id="gc160" width= "400" height= "400"></canvas>
+		<canvas id="gc161" width= "400" height= "400"></canvas>
+		<canvas id="gc162" width= "400" height= "400"></canvas>
+		<canvas id="gc163" width= "400" height= "400"></canvas>
+		<canvas id="gc164" width= "400" height= "400"></canvas>
+		<canvas id="gc165" width= "400" height= "400"></canvas>
+		<canvas id="gc166" width= "400" height= "400"></canvas>
+		<canvas id="gc167" width= "400" height= "400"></canvas>
+		<canvas id="gc168" width= "400" height= "400"></canvas>
+		<canvas id="gc169" width= "400" height= "400"></canvas>
+		<canvas id="gc170" width= "400" height= "400"></canvas>
+		<canvas id="gc171" width= "400" height= "400"></canvas>
+		<canvas id="gc172" width= "400" height= "400"></canvas>
+		<canvas id="gc173" width= "400" height= "400"></canvas>
+		<canvas id="gc174" width= "400" height= "400"></canvas>
+		<canvas id="gc175" width= "400" height= "400"></canvas>
+		<canvas id="gc176" width= "400" height= "400"></canvas>
+		<canvas id="gc177" width= "400" height= "400"></canvas>
+		<canvas id="gc178" width= "400" height= "400"></canvas>
+		<canvas id="gc179" width= "400" height= "400"></canvas>
+		<canvas id="gc180" width= "400" height= "400"></canvas>
+		<canvas id="gc181" width= "400" height= "400"></canvas>
+		<canvas id="gc182" width= "400" height= "400"></canvas>
+		<canvas id="gc183" width= "400" height= "400"></canvas>
+		<canvas id="gc184" width= "400" height= "400"></canvas>
+		<canvas id="gc185" width= "400" height= "400"></canvas>
+		<canvas id="gc186" width= "400" height= "400"></canvas>
+		<canvas id="gc187" width= "400" height= "400"></canvas>
+		<canvas id="gc188" width= "400" height= "400"></canvas>
+		<canvas id="gc189" width= "400" height= "400"></canvas>
+		<canvas id="gc190" width= "400" height= "400"></canvas>
+		<canvas id="gc191" width= "400" height= "400"></canvas>
+		<canvas id="gc192" width= "400" height= "400"></canvas>
+		<canvas id="gc193" width= "400" height= "400"></canvas>
+		<canvas id="gc194" width= "400" height= "400"></canvas>
+		<canvas id="gc195" width= "400" height= "400"></canvas>
+		<canvas id="gc196" width= "400" height= "400"></canvas>
+		<canvas id="gc197" width= "400" height= "400"></canvas>
+		<canvas id="gc198" width= "400" height= "400"></canvas>
+		<canvas id="gc199" width= "400" height= "400"></canvas>
+		<canvas id="gc200" width= "400" height= "400"></canvas>
+		<canvas id="gc201" width= "400" height= "400"></canvas>
+		<canvas id="gc202" width= "400" height= "400"></canvas>
+		<canvas id="gc203" width= "400" height= "400"></canvas>
+		<canvas id="gc204" width= "400" height= "400"></canvas>
+		<canvas id="gc205" width= "400" height= "400"></canvas>
+		<canvas id="gc206" width= "400" height= "400"></canvas>
+		<canvas id="gc207" width= "400" height= "400"></canvas>
+		<canvas id="gc208" width= "400" height= "400"></canvas>
+		<canvas id="gc209" width= "400" height= "400"></canvas>
+		<canvas id="gc210" width= "400" height= "400"></canvas> 
+		<canvas id="gc211" width= "400" height= "400"></canvas>
+		<canvas id="gc212" width= "400" height= "400"></canvas>
+		<canvas id="gc213" width= "400" height= "400"></canvas>
+		<canvas id="gc214" width= "400" height= "400"></canvas>
+		<canvas id="gc215" width= "400" height= "400"></canvas>
+		<canvas id="gc216" width= "400" height= "400"></canvas>
+		<canvas id="gc217" width= "400" height= "400"></canvas>
+		<canvas id="gc218" width= "400" height= "400"></canvas>
+		<canvas id="gc219" width= "400" height= "400"></canvas>
+		<canvas id="gc220" width= "400" height= "400"></canvas>
+	</div>
+	Generation:<span id = "Generation"></span><br>
+	Best Genes:<span id = "BestGenes"></span>
+
+</body>
+</html>

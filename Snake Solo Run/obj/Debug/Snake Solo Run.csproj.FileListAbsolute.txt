@@ -1,0 +1,11 @@
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\bin\Debug\Snake Solo Run.dll
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\bin\Debug\Snake Solo Run.pdb
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\bin\Debug\Bridge.dll
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\bin\Debug\Newtonsoft.Json.dll
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\bin\Debug\Bridge.xml
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\bin\Debug\Newtonsoft.Json.xml
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\obj\Debug\Snake Solo Run.csproj.CoreCompileInputs.cache
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\obj\Debug\Snake Solo Run.csproj.CopyComplete
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\obj\Debug\Snake Solo Run.dll
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\obj\Debug\Snake Solo Run.pdb
+D:\SELF LEARNING\ENN Snake Game\Snake Solo Run\obj\Debug\Snake Solo Run.csprojAssemblyReference.cache
